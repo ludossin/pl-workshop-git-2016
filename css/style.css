@@ -1,0 +1,72 @@
+html, body{
+    background-color: #fafafa;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+ul{padding: 0;}
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+#projects li{
+    padding: 12px;
+    background-color: #333;
+    color: #ccc;
+    border-radius: 3px;
+    margin-right: 6px;
+    line-height: 3em;
+    cursor: pointer;
+}
+
+#projects li:hover{ background-color: #555; color: #eee;}
+
+#names li{
+    width: 28%;
+    border-radius: 3px;
+    float: left;
+    background-color: #333;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    margin: 6px 6px 0 0;
+    padding: 12px;
+}
+
+/* write your styles here */
+
+/* change #nameX [1,2,3 etc] to #yourname */
+/* (BELOW AND IN THE HTML) */
+/* make new li's in the html if needed */
+
+#names li#name1{background-color: rgb(42, 51, 230); transition: opacity 1s;}
+#names li#name1:hover{opacity: .5;}
+
+#names li#name2{background-color: rgb(68, 143, 9); }
+#names li#name2:hover{ }
+
+#names li#name3{background-color: rgb(54, 222, 218); }
+#names li#name3:hover{ }
+
+#names li#lucia{
+  background: -moz-linear-gradient(rgb(255, 0, 136), yellow );
+  background: -webkit-linear-gradient(rgb(255, 0, 136), yellow);
+
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  transition: transform 0.5s;
+}
+#names li#lucia:hover{
+  -ms-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+ }
+
+#names li#name5{background-color: rgb(9, 242, 56); }
+#names li#name5:hover{ }
+
+#names li#name6{background-color: rgb(233, 49, 101) }
+#names li#name6:hover{ }
