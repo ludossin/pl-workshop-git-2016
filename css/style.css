@@ -38,8 +38,8 @@ ul li{
 /* (BELOW AND IN THE HTML) */
 /* make new li's in the html if needed */
 
-#names li#name1{background-color: rgb(42, 51, 230); transition: opacity 1s;}
-#names li#name1:hover{opacity: .5;}
+#names li#name1{background-color: rgb(200, 162, 200); transition: opacity 1s;}
+#names li#name1:hover{opacity: .5; color: Pink}
 
 #names li#name2{background-color: rgb(68, 143, 9); }
 #names li#name2:hover{ }
@@ -129,3 +129,6 @@ ul li{
   -o-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+#names li#Nicoleta{background-color: rgb(145, 49, 255); }
+#names li#Nicoleta:hover{ background-color: aqua;}
