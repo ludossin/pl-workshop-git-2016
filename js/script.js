@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
-
+      $('.youngmegasexy').on('click',function(){
+        alert('good choice');
+      })
        //HANDLES THE CLICK ON THE PROJECTS
        $('body').on('click','#projects li', function(){
          

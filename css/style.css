@@ -38,13 +38,13 @@ ul li{
 /* (BELOW AND IN THE HTML) */
 /* make new li's in the html if needed */
 
-#names li#name1{background-color: rgb(200, 162, 200); transition: opacity 1s;}
-#names li#name1:hover{opacity: .5; color: Pink}
+#names li#abdo{background-color: rgb(200, 162, 200); transition: opacity 1s;}
+#names li#abdo:hover{opacity: .5; color: Pink}
 
 #names li#name2{background-color: rgb(68, 143, 9); }
 #names li#name2:hover{ }
 
-#names li#name3{background-color: rgb(54, 222, 218); }
+#names li#Oliver Barstow{background-color: rgb(54, 222, 218); }
 #names li#name3:hover{ }
 
 #names li#lucia{
@@ -71,6 +71,52 @@ ul li{
 #names li#shogo{color:white; background-color: black; transition: 1.0s}
 #names li#shogo:hover{color: black; background-color: white; transition: 1.0s }
 
+.youngmegasexy{
+  text-align:center;
+  color:#fff;
+  letter-spacing: -1px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+#names li#shogo{animation-duration: 3s; animation-name: slidein;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .rainbow {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
