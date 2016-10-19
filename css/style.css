@@ -70,7 +70,19 @@ ul li{
 
 #names li#shogo{color:white; background-color: black; transition: 1.0s}
 #names li#shogo:hover{color: black; background-color: white; transition: 1.0s }
+#names li#shogo{animation-duration: 3s; animation-name: slidein;}
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .rainbow {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
