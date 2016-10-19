@@ -65,8 +65,9 @@ ul li{
   transform: rotate(-12deg);
  }
 
-#names li#name5{background-color: rgb(9, 242, 56); }
-#names li#name5:hover{ }
+#names li#trucmusch{background-color: rgb(90, 22, 568); }
+#names li#trucmusch:hover{color: blue; background-color: white; transition: 0.5s }
+
 
 #names li#shogo{color:white; background-color: black; transition: 1.0s}
 #names li#shogo:hover{color: black; background-color: white; transition: 1.0s }
