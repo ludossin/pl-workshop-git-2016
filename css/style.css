@@ -68,8 +68,8 @@ ul li{
 #names li#name5{background-color: rgb(9, 242, 56); }
 #names li#name5:hover{ }
 
-#names li#name6{background-color: rgb(233, 49, 101) }
-#names li#name6:hover{ }
+#names li#shogo{color:white; background-color: black; transition: 1.0s}
+#names li#shogo:hover{color: black; background-color: white; transition: 1.0s }
 
 .rainbow {
   -webkit-box-sizing: content-box;
