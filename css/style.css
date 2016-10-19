@@ -38,13 +38,13 @@ ul li{
 /* (BELOW AND IN THE HTML) */
 /* make new li's in the html if needed */
 
-#names li#name1{background-color: rgb(200, 162, 200); transition: opacity 1s;}
-#names li#name1:hover{opacity: .5; color: Pink}
+#names li#abdo{background-color: rgb(200, 162, 200); transition: opacity 1s;}
+#names li#abdo:hover{opacity: .5; color: Pink}
 
 #names li#name2{background-color: rgb(68, 143, 9); }
 #names li#name2:hover{ }
 
-#names li#name3{background-color: rgb(54, 222, 218); }
+#names li#Oliver Barstow{background-color: rgb(54, 222, 218); }
 #names li#name3:hover{ }
 
 #names li#lucia{
@@ -68,8 +68,8 @@ ul li{
 #names li#name5{background-color: rgb(9, 242, 56); }
 #names li#name5:hover{ }
 
-#names li#name6{background-color: rgb(233, 49, 101) }
-#names li#name6:hover{ }
+#names li#shogo{color:white; background-color: black; transition: 1.0s}
+#names li#shogo:hover{color: black; background-color: white; transition: 1.0s }
 
 .youngmegasexy{
   text-align:center;
@@ -104,6 +104,19 @@ ul li{
       0px -10px 100px #7B96B8;}
 }
 
+#names li#shogo{animation-duration: 3s; animation-name: slidein;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .rainbow {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
