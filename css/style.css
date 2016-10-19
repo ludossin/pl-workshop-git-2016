@@ -38,8 +38,8 @@ ul li{
 /* (BELOW AND IN THE HTML) */
 /* make new li's in the html if needed */
 
-#names li#name1{background-color: rgb(42, 51, 230); transition: opacity 1s;}
-#names li#name1:hover{opacity: .5;}
+#names li#name1{background-color: rgb(200, 162, 200); transition: opacity 1s;}
+#names li#name1:hover{opacity: .5; color: Pink}
 
 #names li#name2{background-color: rgb(68, 143, 9); }
 #names li#name2:hover{ }
@@ -55,9 +55,9 @@ ul li{
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
 
-  -webkit-transition: transform 0.75s;
-  -moz-transition: transform 0.75s;
-  transition: transform 0.75s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 #names li#lucia:hover{
   -ms-transform: rotate(-12deg);
@@ -68,8 +68,8 @@ ul li{
 #names li#name5{background-color: rgb(9, 242, 56); }
 #names li#name5:hover{ }
 
-#names li#name6{background-color: rgb(233, 49, 101) }
-#names li#name6:hover{ }
+#names li#shogo{color:white; background-color: black; transition: 1.0s}
+#names li#shogo:hover{color: black; background-color: white; transition: 1.0s }
 
 .rainbow {
   -webkit-box-sizing: content-box;
@@ -96,3 +96,13 @@ ul li{
   -o-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+#names li#Nicoleta{background-color: rgb(145, 49, 255); }
+#names li#Nicoleta:hover{ background-color: aqua;}
+
+#names li#name8{background-color: white; }
+#names li#name8:hover{ 
+  box-shadow:
+                50px 50px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);}
