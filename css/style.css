@@ -1,6 +1,6 @@
 html, body{
-    background-color: #000000;
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #00FFFF;
+    font-family: 'verdana';
 }
 
 ul{padding: 0;}
@@ -41,8 +41,13 @@ ul li{
 #names li#abdo{background-color: rgb(200, 162, 200); transition: opacity 1s;}
 #names li#abdo:hover{opacity: .5; color: Pink}
 
-#names li#name2{background-color: rgb(68, 143, 9); }
-#names li#name2:hover{ }
+#names li#Janne{background-color: #FE642E; }
+#names li#Janne:hover{opacity: .5; color: Pink
+-ms-transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
 
 #names li#Oliver Barstow{background-color: rgb(54, 222, 218); }
 #names li#name3:hover{ }
@@ -143,8 +148,9 @@ ul li{
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-#names li#Nicoleta{background-color: rgb(145, 49, 255); }
-#names li#Nicoleta:hover{ background-color: aqua;}
+#names li#Nicoleta{background-color: red;
+                    text-align: center;}
+#names li#Nicoleta:hover{ background-color: yellow;}
 
 #names li#name8{background-color: white; }
 #names li#name8:hover{ 
