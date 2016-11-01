@@ -1,6 +1,6 @@
 html, body{
-    background-color: #FFBF00;
-    font-family: 'times new roman';
+    background-color: #00FFFF;
+    font-family: 'verdana';
 }
 
 ul{padding: 0;}
@@ -41,8 +41,13 @@ ul li{
 #names li#abdo{background-color: rgb(200, 162, 200); transition: opacity 1s;}
 #names li#abdo:hover{opacity: .5; color: Pink}
 
-#names li#name2{background-color: rgb(68, 143, 9); }
-#names li#name2:hover{ }
+#names li#Janne{background-color: #FE642E; }
+#names li#Janne:hover{opacity: .5; color: Pink
+-ms-transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
 
 #names li#Oliver Barstow{background-color: rgb(54, 222, 218); }
 #names li#name3:hover{ }
